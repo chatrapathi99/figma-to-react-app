@@ -1,0 +1,30 @@
+{
+    "type": "FRAME",
+    "name": "Login Page",
+    "children": [
+      {
+        "type": "TEXT",
+        "name": "Title",
+        "characters": "Welcome Back!",
+        "style": { "fontSize": 24, "fontWeight": "bold", "textAlign": "center" }
+      },
+      {
+        "type": "INPUT",
+        "name": "Username",
+        "placeholder": "Enter Your User Name"
+      },
+      {
+        "type": "INPUT",
+        "name": "Password",
+        "placeholder": "Enter Your password",
+        "secureTextEntry": true
+      },
+      {
+        "type": "BUTTON",
+        "name": "Login Button",
+        "label": "Login",
+        "style": { "backgroundColor": "#007BFF", "color": "#FFFFFF" }
+      }
+    ]
+  }
+  

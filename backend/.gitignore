@@ -1,0 +1,17 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore build or dist folders
+dist/
+build/
+
+# Ignore generated files
+/src/generated/
+
+/src/components/GeneratedComponent.jsx
+
+# Ignore logs
+*.log
